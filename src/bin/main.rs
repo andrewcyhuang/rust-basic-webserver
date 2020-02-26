@@ -16,6 +16,7 @@ fn main() {
         });
     }
 }
+
 // stream argument must be set as mutable here because of TCPStream instance
 // magic, its internal state might change. Therefore, even though we are only
 // reading the input, we need the mut keyword
